@@ -1,42 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Handeling Environment Variables
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+When dealing with a full-stack framework like Nuxt, it is critical to manage private and public environment variables.
 
-## Setup
+For an example, working with Firebase, you get public variables using which you can query for a single user's data. You can use service account credentials for Firebase, using which you will be able to access all the users data and have much more power on server side.
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Nuxt allows us to expose certain variables to the browser while keeping others private and only accessible from the server side.
