@@ -1,5 +1,9 @@
 <template>
   <div>
-    <NuxtWelcome />
+    {{config}}
   </div>
 </template>
+
+<script setup>
+const config = useRuntimeConfig()
+</script>
