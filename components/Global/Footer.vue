@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-3">
+    <div>
       <div class="flex justify-between items-center">
         <div>
             <p class="text-lg text-gray-400 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">
