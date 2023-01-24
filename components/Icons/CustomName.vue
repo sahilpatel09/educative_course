@@ -14,20 +14,20 @@
         stroke="cyan"
         stroke-width="3"
         transform="translate(10)"
-        ></polygon>
-        <text
+      ></polygon>
+      <text
         x="28"
         y="25"
         fill="cyan"
         font-family="Verdana"
         font-size="18"
         text-anchor="middle"
-        >
-        {{ props.alphabet }}
-        </text>
+      >
+        {{ user.data.name.first[0] }}
+      </text>
     </svg>
   </div>
 </template>
 <script setup>
-const props = defineProps(['alphabet'])
+const user = useUser();
 </script>
