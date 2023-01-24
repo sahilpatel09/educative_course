@@ -56,6 +56,9 @@
   </div>
 </template>
 <script setup>
+definePageMeta({
+  middleware: ["pagevisit"],
+});
 const user = useUser();
 console.log(user);
 const url = "http://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020";

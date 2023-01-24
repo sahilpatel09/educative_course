@@ -230,3 +230,8 @@
     </section>
   </div>
 </template>
+<script setup>
+definePageMeta({
+  middleware: ["pagevisit"],
+});
+</script>
